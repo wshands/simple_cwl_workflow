@@ -3,6 +3,7 @@
 cwlVersion: v1.2
 class: Workflow
 
+# To wrap the CWL tool in a workflow you will still need to specify the inputs and outputs
 inputs:
   message: string
 
